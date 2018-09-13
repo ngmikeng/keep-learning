@@ -3,6 +3,9 @@ public class Main {
         System.out.println("Hello World!");
 
         Person pete = new Person();
+        pete.inputName();
+        pete.inputAddress();
+        pete.printName();
         pete.printAddress();
     }
 }
